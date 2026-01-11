@@ -6,8 +6,9 @@
 
     <Application.Styles>
         <FluentTheme />
-        <StyleInclude Source="Styles/StylesDefaultAplicativo.axaml"></StyleInclude>
+        <StyleInclude Source="Assets/Styles/StylesDefaultAplicativo.axaml"></StyleInclude>
     </Application.Styles>
+    
     <Application.Resources>
         <SolidColorBrush x:Key="FundoCorPrimaria">#003366</SolidColorBrush>
     </Application.Resources>

@@ -1,28 +1,16 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:FinTrack.ViewModels"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
-        Width="1280" Height="720"
+        xmlns:views="clr-namespace:FinTrack.Views.Components"
         x:Class="FinTrack.Views.MainWindow"
-        x:DataType="vm:MainWindowViewModel"
-        Title="FinTrack">
+        Title="FinTrack"
+        Width="1280"
+        Height="720"
+        CanResize="True"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource FundoCorPrimaria}">
 
-    <Grid Background="{DynamicResource FundoCorPrimaria}" ColumnDefinitions="Auto,*" >
-        
-        <Image Grid.Column="1"
-                           
-               Source="C:\Users\Joao Vitor\Documents\GitHub\FinTrack\FinTrack\FinTrack\Assets\FinTrack Dark Mode (1).png" 
-                           
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center"
-               Width="420"
-               Margin="0,-380,0,0">
-        </Image>
+    <Grid>
+        <!-- O LoginCard será instanciado no código C#, não no XAML -->
+        <ContentControl Name="ContentControl" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
-    
-    
-
-
 </Window>

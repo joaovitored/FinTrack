@@ -1,0 +1,138 @@
+﻿<UserControl
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:FinTrack.ViewModels"
+    x:Class="FinTrack.Views.Components.LoginCard"
+    x:DataType="vm:LoginCardViewModel">
+
+    <Border CornerRadius="20"
+            Padding="30"
+            Width="360"
+            Background="#1F2937CC"
+            BoxShadow="0 0 40 0 #00000080">
+
+        <StackPanel Spacing="10">
+
+            <Image Source="avares://FinTrack/Assets/Images/FinTrack Dark Mode (1).png"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Top"
+                   Width="320"
+                   Margin="0,-30,50,-50"
+                   Opacity="0.9"/>
+            
+            <TextBlock Text="Login"
+                       FontSize="26"
+                       Foreground="White"
+                       FontWeight="SemiBold"
+                       HorizontalAlignment="Center" />
+
+            <TextBlock Text="Conecte-se com a sua conta"
+                       FontSize="14"
+                       Foreground="#9CA3AF"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <StackPanel>
+                <TextBlock 
+                           Text="Email"
+                           Foreground="#9CA3AF"
+                           FontSize="12"
+                           Margin="0,0,0,5"/>
+
+                <TextBox Text="{Binding Email, Mode=TwoWay}"
+                         Watermark="Digite o seu email"
+                         Foreground="Black"
+                         CornerRadius="8"
+                         BorderBrush="Transparent"
+                         Padding="8"/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Senha"
+                           Foreground="#9CA3AF"
+                           FontSize="12"
+                           Margin="0,10,0,5"/>
+    
+                <Grid>
+                    
+                    <!-- Campo de senha -->
+                    <TextBox x:Name="SenhaBox"
+                             Text="{Binding Senha, Mode=TwoWay}"
+                             Watermark="Digite a sua senha"
+                             Foreground="Black"
+                             CornerRadius="8"
+                             BorderBrush="Transparent"
+                             Padding="8"
+                             PasswordChar="●"/>
+                    
+                   
+                    
+                    <!-- Botão de mostrar/ocultar senha -->
+                    <Button Width="30"
+                            Height="30"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            Margin="0,0,5,0"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            Click="VisualizarSenha"
+                            Focusable="False"
+                            Padding="0">
+                        <Button.Styles>
+                            <Style Selector="Button:pressed">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="BorderBrush" Value="Transparent"/>
+                            </Style>
+                        </Button.Styles>
+
+                        <Image x:Name="SenhaIcon"
+                               Source="avares://FinTrack/Assets/Images/olho_fechado.png"
+                               Width="24"
+                               Height="24"/>
+                    </Button>
+                    
+                   
+                </Grid>
+            </StackPanel>
+            
+            <TextBlock Text="{Binding MensagemStatusLogin}"
+                                          Foreground="{Binding MensagemStatusLogin}"
+                                          HorizontalAlignment="Center"/>
+            
+            <Button Content="Login"
+                    Command="{Binding LoginCommand}"
+                    HorizontalContentAlignment="Center"
+                    Background="#4F46E5"
+                    Foreground="White"
+                    FontWeight="SemiBold"
+                    CornerRadius="8"
+                    Padding="12"
+                    Width="100"
+                    HorizontalAlignment="Center">
+                <Button.Styles>
+                    <Style Selector="Button:pointerover">
+                        <Setter Property="Background" Value="#6366F1"/>
+                    </Style>
+                </Button.Styles>
+            </Button>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Center" Spacing="4">
+                <TextBlock Text="Não tem uma conta?" Foreground="#9CA3AF" VerticalAlignment="Center"/>
+    
+                <Button Command="{Binding NavegarParaSignUp}"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        Padding="0"
+                        Cursor="Hand"
+                        VerticalAlignment="Center">
+                    <TextBlock Text="Cadastre-se"
+                               Foreground="#4F46E5"
+                               TextDecorations="Underline"
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center"/>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Border>
+</UserControl>
