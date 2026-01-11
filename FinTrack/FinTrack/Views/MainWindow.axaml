@@ -12,14 +12,12 @@
     <Grid Background="{DynamicResource FundoCorPrimaria}" ColumnDefinitions="Auto,*" >
         
         <Image Grid.Column="1"
-                           
-               Source="C:\Users\Joao Vitor\Documents\GitHub\FinTrack\FinTrack\FinTrack\Assets\FinTrack Dark Mode (1).png" 
-                           
+               Source="avares://FinTrack/Assets/FinTrack Dark Mode (1).png"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                Width="420"
-               Margin="0,-380,0,0">
-        </Image>
+               Margin="0,-380,0,0"/>
+        
     </Grid>
     
     
