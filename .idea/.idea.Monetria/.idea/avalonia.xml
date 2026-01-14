@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="Monetria/App.axaml" value="Monetria/Monetria.csproj" />
+        <entry key="Monetria/Styles/EstilosIcones.axaml" value="Monetria/Monetria.csproj" />
         <entry key="Monetria/Styles/FundoAplicativo.axaml" value="Monetria/Monetria.csproj" />
         <entry key="Monetria/Views/MainWindow.axaml" value="Monetria/Monetria.csproj" />
       </map>

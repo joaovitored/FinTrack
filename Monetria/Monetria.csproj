@@ -8,12 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Assets\Images\" />
         <Folder Include="Models\"/>
         <AvaloniaResource Include="Assets\**"/>
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="ActiproSoftware.Controls.Avalonia.Pro" Version="25.2.2-beta.5" />
         <PackageReference Include="Avalonia" Version="11.3.10"/>
         <PackageReference Include="Avalonia.Desktop" Version="11.3.10"/>
         <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.10"/>

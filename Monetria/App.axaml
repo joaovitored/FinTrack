@@ -11,6 +11,7 @@
   
     <Application.Styles>
         <FluentTheme />
+        <StyleInclude Source="avares://Monetria/Styles/EstilosIcones.axaml"></StyleInclude>
     </Application.Styles>
              <Application.Resources>
                  <SolidColorBrush x:Key="FundoCorPrimaria">#003366</SolidColorBrush>

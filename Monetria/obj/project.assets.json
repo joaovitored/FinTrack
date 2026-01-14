@@ -2,6 +2,57 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "ActiproSoftware.Controls.Avalonia/25.2.2-beta.5": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.3.7"
+        },
+        "compile": {
+          "lib/net8.0/ActiproSoftware.Avalonia.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ActiproSoftware.Avalonia.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ActiproSoftware.Controls.Avalonia.Pro/25.2.2-beta.5": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.Avalonia": "[25.2.2-beta.5]",
+          "Avalonia": "11.3.7"
+        },
+        "compile": {
+          "lib/net8.0/ActiproSoftware.Avalonia.Bars.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Docking.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Fundamentals.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ActiproSoftware.Avalonia.Bars.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Docking.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/ActiproSoftware.Avalonia.Fundamentals.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Avalonia/11.3.10": {
         "type": "package",
         "dependencies": {
@@ -602,6 +653,42 @@
     }
   },
   "libraries": {
+    "ActiproSoftware.Controls.Avalonia/25.2.2-beta.5": {
+      "sha512": "Gyle4z/XCDP9pUCcJsVH+qaAQBOMlVYopxuzCAp3CRZng61T2zgDx9XDN4ZsBxiVXr1UlA4jF7WMH1TuHiWWPg==",
+      "type": "package",
+      "path": "actiprosoftware.controls.avalonia/25.2.2-beta.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "actiprosoftware.controls.avalonia.25.2.2-beta.5.nupkg.sha512",
+        "actiprosoftware.controls.avalonia.nuspec",
+        "images/ActiproIcon.png",
+        "lib/net8.0/ActiproSoftware.Avalonia.Core.dll",
+        "lib/net8.0/ActiproSoftware.Avalonia.Core.xml",
+        "lib/net8.0/ActiproSoftware.Avalonia.Shared.dll",
+        "lib/net8.0/ActiproSoftware.Avalonia.Shared.xml"
+      ]
+    },
+    "ActiproSoftware.Controls.Avalonia.Pro/25.2.2-beta.5": {
+      "sha512": "LsgfxLEJrmJjrHCLAR7WZ6ENryfMrXYANu4g08E0XogHSULJNpw+5LpHSODuFwi1R+C79UmhCYaL1wmnqHFJFQ==",
+      "type": "package",
+      "path": "actiprosoftware.controls.avalonia.pro/25.2.2-beta.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "actiprosoftware.controls.avalonia.pro.25.2.2-beta.5.nupkg.sha512",
+        "actiprosoftware.controls.avalonia.pro.nuspec",
+        "images/ActiproIcon.png",
+        "lib/net8.0/ActiproSoftware.Avalonia.Bars.dll",
+        "lib/net8.0/ActiproSoftware.Avalonia.Bars.xml",
+        "lib/net8.0/ActiproSoftware.Avalonia.Docking.dll",
+        "lib/net8.0/ActiproSoftware.Avalonia.Docking.xml",
+        "lib/net8.0/ActiproSoftware.Avalonia.Fundamentals.dll",
+        "lib/net8.0/ActiproSoftware.Avalonia.Fundamentals.xml"
+      ]
+    },
     "Avalonia/11.3.10": {
       "sha512": "fAZmy1oOzQzBlg0Mm8QawA2439LmXHmX7hHEucfvGmAfibCUtQ0wgedl4b3XRd4Y8pH50kAlsg5DPG7ARtGa2A==",
       "type": "package",
@@ -1456,6 +1543,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ActiproSoftware.Controls.Avalonia.Pro >= 25.2.2-beta.5",
       "Avalonia >= 11.3.10",
       "Avalonia.Desktop >= 11.3.10",
       "Avalonia.Diagnostics >= 11.3.10",
@@ -1514,6 +1602,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ActiproSoftware.Controls.Avalonia.Pro": {
+            "target": "Package",
+            "version": "[25.2.2-beta.5, )"
+          },
           "Avalonia": {
             "target": "Package",
             "version": "[11.3.10, )"
@@ -1550,12 +1642,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
