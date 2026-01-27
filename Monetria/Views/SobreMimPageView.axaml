@@ -2,7 +2,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:actipro="http://schemas.actiprosoftware.com/avaloniaui"
+             xmlns:vm="using:Monetria.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Monetria.Views.SobreMimPageView">
-    Welcome to Avalonia!
+    
+    <StackPanel Spacing="10" Margin="10" Orientation="Vertical">
+        <TextBlock Text="Sobre mim" FontSize="20" FontWeight="Bold"></TextBlock>
+        
+        
+        
+    </StackPanel>
+        
 </UserControl>

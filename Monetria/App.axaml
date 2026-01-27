@@ -18,6 +18,11 @@
     </Application.Styles>
              <Application.Resources>
                  <SolidColorBrush x:Key="FundoCorPrimaria">#003366</SolidColorBrush>
-
              </Application.Resources>
+    
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml"/>
+    </Application.Styles>
+    
 </Application>

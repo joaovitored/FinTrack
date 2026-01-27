@@ -8,13 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Models\"/>
         <AvaloniaResource Include="Assets\**"/>
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="ActiproSoftware.Controls.Avalonia.Pro" Version="25.2.2-beta.5" />
         <PackageReference Include="Avalonia" Version="11.3.10"/>
+        <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.3.10" />
         <PackageReference Include="Avalonia.Desktop" Version="11.3.10"/>
         <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.10"/>
         <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.10"/>
@@ -24,5 +24,8 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1"/>
+        <PackageReference Include="LiveChartsCore" Version="2.0.0-rc6.1" />
+        <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-rc6.1" />
+        <PackageReference Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="2.0.0-rc6.1" />
     </ItemGroup>
 </Project>

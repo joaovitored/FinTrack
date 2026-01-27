@@ -28,16 +28,16 @@
 
             <!-- Botão -->
             <Button Command="{Binding OpenPaneCommand}"
-                               HorizontalAlignment="Left">
+                               HorizontalAlignment="Left" >
                                <PathIcon Foreground="White"
-                               Data="{StaticResource line_horizontal_3_regular}" />
+                               Data="{StaticResource line_horizontal_3_regular}"  />
             </Button>
 
             <!-- Logo -->
             <Image Grid.Row="1"
                    Source="../Assets/Images/Monetria-Dark-Mode.png"
                    HorizontalAlignment="Stretch"
-                   VerticalAlignment="Top" />
+                   VerticalAlignment="Top" Margin="0,11,0,0" />
 
             <!-- MENU -->
             <Grid Grid.Row="2"

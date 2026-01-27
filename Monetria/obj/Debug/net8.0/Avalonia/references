@@ -5,6 +5,7 @@ C:\Users\Joao Vitor\.nuget\packages\actiprosoftware.controls.avalonia.pro\25.2.2
 C:\Users\Joao Vitor\.nuget\packages\actiprosoftware.controls.avalonia\25.2.2-beta.5\lib\net8.0\ActiproSoftware.Avalonia.Shared.dll
 C:\Users\Joao Vitor\.nuget\packages\avalonia\11.3.10\ref\net8.0\Avalonia.Base.dll
 C:\Users\Joao Vitor\.nuget\packages\avalonia.controls.colorpicker\11.3.10\lib\net8.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Joao Vitor\.nuget\packages\avalonia.controls.datagrid\11.3.10\lib\net8.0\Avalonia.Controls.DataGrid.dll
 C:\Users\Joao Vitor\.nuget\packages\avalonia\11.3.10\ref\net8.0\Avalonia.Controls.dll
 C:\Users\Joao Vitor\.nuget\packages\avalonia\11.3.10\ref\net8.0\Avalonia.DesignerSupport.dll
 C:\Users\Joao Vitor\.nuget\packages\avalonia.desktop\11.3.10\lib\net8.0\Avalonia.Desktop.dll
@@ -29,6 +30,9 @@ C:\Users\Joao Vitor\.nuget\packages\avalonia.win32\11.3.10\lib\net8.0\Avalonia.W
 C:\Users\Joao Vitor\.nuget\packages\avalonia.x11\11.3.10\lib\net8.0\Avalonia.X11.dll
 C:\Users\Joao Vitor\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll
 C:\Users\Joao Vitor\.nuget\packages\harfbuzzsharp\8.3.1.1\lib\net8.0\HarfBuzzSharp.dll
+C:\Users\Joao Vitor\.nuget\packages\livechartscore\2.0.0-rc6.1\lib\net8.0\LiveChartsCore.dll
+C:\Users\Joao Vitor\.nuget\packages\livechartscore.skiasharpview.avalonia\2.0.0-rc6.1\lib\net8.0\LiveChartsCore.SkiaSharpView.Avalonia.dll
+C:\Users\Joao Vitor\.nuget\packages\livechartscore.skiasharpview\2.0.0-rc6.1\lib\net8.0\LiveChartsCore.SkiaSharpView.dll
 C:\Users\Joao Vitor\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\Microsoft.CSharp.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\Microsoft.VisualBasic.Core.dll
@@ -38,6 +42,7 @@ C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\mscorlib.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\netstandard.dll
 C:\Users\Joao Vitor\.nuget\packages\skiasharp\2.88.9\lib\net6.0\SkiaSharp.dll
+C:\Users\Joao Vitor\.nuget\packages\skiasharp.harfbuzz\2.88.9\lib\net6.0\SkiaSharp.HarfBuzz.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\System.AppContext.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\System.Buffers.dll
 C:\Users\Joao Vitor\.nuget\packages\microsoft.netcore.app.ref\8.0.23\ref\net8.0\System.Collections.Concurrent.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DnlFWIJr8q8=",
+  "dgSpecHash": "tcXkcXlxjng=",
   "success": true,
   "projectFilePath": "C:\\Users\\Joao Vitor\\Documents\\GitHub\\Monetria\\Monetria\\Monetria.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.25547.20250602\\avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.buildservices\\11.3.2\\avalonia.buildservices.11.3.2.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.controls.colorpicker\\11.3.10\\avalonia.controls.colorpicker.11.3.10.nupkg.sha512",
+    "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.controls.datagrid\\11.3.10\\avalonia.controls.datagrid.11.3.10.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.desktop\\11.3.10\\avalonia.desktop.11.3.10.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.diagnostics\\11.3.10\\avalonia.diagnostics.11.3.10.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\avalonia.fonts.inter\\11.3.10\\avalonia.fonts.inter.11.3.10.nupkg.sha512",
@@ -27,8 +28,12 @@
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.1.1\\harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\8.3.1.1\\harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.1.1\\harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
+    "C:\\Users\\Joao Vitor\\.nuget\\packages\\livechartscore\\2.0.0-rc6.1\\livechartscore.2.0.0-rc6.1.nupkg.sha512",
+    "C:\\Users\\Joao Vitor\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-rc6.1\\livechartscore.skiasharpview.2.0.0-rc6.1.nupkg.sha512",
+    "C:\\Users\\Joao Vitor\\.nuget\\packages\\livechartscore.skiasharpview.avalonia\\2.0.0-rc6.1\\livechartscore.skiasharpview.avalonia.2.0.0-rc6.1.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\skiasharp\\2.88.9\\skiasharp.2.88.9.nupkg.sha512",
+    "C:\\Users\\Joao Vitor\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.9\\skiasharp.harfbuzz.2.88.9.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.9\\skiasharp.nativeassets.linux.2.88.9.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.9\\skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
     "C:\\Users\\Joao Vitor\\.nuget\\packages\\skiasharp.nativeassets.webassembly\\2.88.9\\skiasharp.nativeassets.webassembly.2.88.9.nupkg.sha512",

@@ -21,7 +21,7 @@ public partial class MainWindowViewModel : ViewModelBase
     
     
     [ObservableProperty] 
-    private ListItemTemplate _selectedListItem;
+    private ListItemTemplate? _selectedListItem;
     
     partial void OnSelectedListItemChanged(ListItemTemplate? value)
     {
@@ -63,13 +63,21 @@ public class ListItemTemplate
 {
     public string Label { get; }
     public Type ModelType { get; }
-    public StreamGeometry ListItemIcon { get; }
+    public StreamGeometry? ListItemIcon { get; }
     public ListItemTemplate(Type type,string label,string iconKey)
     {
         ModelType = type;
         Label = label;
 
-        Application.Current.TryFindResource(iconKey, out var resource);
-        ListItemIcon = (StreamGeometry)resource;
+        if (Application.Current is not null &&
+            Application.Current.TryFindResource(iconKey, out var resource) &&
+            resource is StreamGeometry geometry)
+        {
+            ListItemIcon = geometry;
+        }
+        else
+        {
+            ListItemIcon = null; // estado válido
+        }
     }
 }
